@@ -1,0 +1,46 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.masterContainer {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #00f001;
+  font-size: 11ch;
+  font-family: "BatmanForeverAlternate", sans-serif;
+}
+
+.Menu {
+  font-size: 5ch;
+  font-family: "BatmanForeverAlternate", sans-serif;
+}
+
+.menuItem {
+  color: #007000;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  color: #00f001;
+  text-decoration: none;
+}
+
+.menuActive {
+  color: #00f001;
+  text-decoration: none;
+}
+
+.timerInput {
+  background: none;
+  border: none;
+  width: 12vw;
+  text-align: center;
+  color: #00f001;
+}
